@@ -5,7 +5,7 @@ const AppEffect: React.FC = () => {
   
   useEffect(() => {
     async function loadData() {
-      const response = await fetch('htpps://api.github.com/users/euelinton/repos')
+      const response = await fetch('https://api.github.com/users/euelinton/repos')
       const data = await response.json()
   
       setRepositories(data)
