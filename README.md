@@ -1,27 +1,25 @@
-# Hooks + Typescript
+# Hooks
 
-## Hooks
-
-### useState
+## useState
 Utilizado para controlarmos alguma variável de estado dentro de um function component.
 
-### useEffect
+## useEffect
 Responsável por operar efeitos colaterais durante a renderização do nosso componente.
 
-### useRef
+## useRef
 Faz referência a algum elemento do DOM.
 
-### useMemo
+## useMemo
 Retorna um valor memorizado.
 
-### useCallback
+## useCallback
 Retorna uma versão memorizada do callback que só muda se uma das entradas tiverem sido alteradas.
 
-### useContext
+## useContext
 Aceita um objeto de contexto e retorna o valor atual do contexto.
 
-### useReducer
+## useReducer
 Funciona como um alternativa para `useState`. Aceita um reducer do tipo (state, action) => newState e retorna o estado atual, junto com um método dispatch.
 
-### useImperativeHandle
+## useImperativeHandle
 Personaliza o valor da instância que está exposta aos components pai ao usar ref. O useImperativeHandle deve ser usado com forwardRef.
