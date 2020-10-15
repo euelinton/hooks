@@ -10,12 +10,13 @@ const AppEffect: React.FC = () => {
   
       setRepositories(data)
     }
+    loadData()
   }, [])
 
   return (
     <ul>
-      {repositories.map(repo => (
-        <li>{repo}</li>
+      {repositories?.map(repo => (
+        <li>{repo.name}</li>
       ))}
     </ul>
   )
